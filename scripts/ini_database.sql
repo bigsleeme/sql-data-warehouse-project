@@ -1,10 +1,10 @@
 /*
 ==================================================================
-Create Database and Schemas
+Create Database and Schemas in Google Cloud SQL
 ==================================================================
 
 Script Purpose:
-  This scropt create a new database name 'DataWarehouse' adter checking if it alreadt exists.
+  This script create a new database name 'DataWarehouse' after checking if it alreadt exists.
   if the datavase exists, it is dropped and recreated. Additionally, the script sets up three schemas
   within the database: 'bronze', 'silver', and 'gold'.
 
