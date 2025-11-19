@@ -1,7 +1,7 @@
 # 🚀 Data Warehouse and Analytics Solution
 Welcome to the repository for a comprehensive Data Warehouse and Analytics Solution.
 
-This project serves as a detailed portfolio demonstration, showcasing industry best practices in data engineering and analytical solution development. It presents an end-to-end framework for transforming raw business data into actionable insights, scalable for both small and large enterprises.
+This project serves as a detailed portfolio demonstration, showcasing industry best practices in data engineering and analytical solution development. It presents an end-to-end framework for transforming raw business data into actionable insights on Google Cloud, scalable for both small and large enterprises.
 
 
 ## 🛠️ Project Scope & Technical Requirements
