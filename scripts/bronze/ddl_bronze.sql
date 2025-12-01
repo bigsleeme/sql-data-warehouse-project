@@ -9,14 +9,6 @@ Script purpose:
 ================================================================================
 */
 
-
-CALL bronze.load_bronze();
-
-DROP PROCEDURE IF EXISTS bronze.load_bronze;
-
-CREATE PROCEDURE bronze.load_bronze()
-BEGIN
-
     DROP TABLE IF EXISTS bronze.crm_cust_info;
     CREATE TABLE bronze.crm_cust_info(
         cst_id INT,
@@ -73,11 +65,3 @@ BEGIN
       maintenance VARCHAR(50)
     );
 
-
-    DELETE from bronze.crm_cust_info
-    WHERE cst_id = 0;
-
-    select *
-    from bronze.crm_cust_info;
-
-END
